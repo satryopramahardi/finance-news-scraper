@@ -9,7 +9,7 @@ News scraper untuk mencari judul berita dengan tag finansial pada 7 portal berit
 |--------|-------|-------|
 | GET | http://[localhost]/scrape-news | Cari judul berita dan simpan ke database, csv, dan json|
 | GET | http://[localhost]/scrape-news/news-list | Lihat berita yang sudah di-*scrape* |
-| GET | http://[localhost]/scrape-news/news-list/123 | Lihat berita ke-123 |
+| GET | http://[localhost]/scrape-news/news-list/123 | Lihat judul berita dengan urutan ke-123 |
 | GET | http://[localhost]/scrape-news/db/list | Lihat berita yang tersimpan di database |
 | GET | http://[localhost]/scrape-news/db/flush | Kosongkan database |
 
